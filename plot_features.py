@@ -117,8 +117,6 @@ def jitter(values):
         new_values.append(v)
     return new_values
 
-#sns.stripplot(x="Year", y="Samples", hue= "Technique", size= df["Sizes"], data= df, dodge= True, alpha= 0.2, jitter= 1.25)
-
 plt.figure(figsize=(10,6))
 
 sns.scatterplot(x= jitter(df["Year"]), 
@@ -143,7 +141,7 @@ n_pub = len(publications)
 
 txt1 = f"n(samples): {tot_genomes}" + "\n" + f"n(publications): {n_pub}" + "\n" + f"n(aCGH): {n_acgh}" + "\n" + f"n(cCGH): {n_ccgh}" + "\n" + f"n(WES): {n_wes}" + "\n" + f"n(WGS): {n_wgs}" 
 
-txt= f"Fig 1. Publication statistics for cancer genome screening studies. The graphic shows our assessment of publications reporting whole-genome screening of cancer samples, using molecular detection methods (chromosomal CGH, genomic arrays technologies, whole-exome and whole-genome sequencing)." + "\n" + f" For the years 1993-2020 we found {n_pub} publications reporting {tot_genomes} individual samples." + "\n" + " The y-axis and the size of the dots refer to the sample number in a non-linear way; the color codes indicate the technology used." 
+txt2= f"Fig 1. Publication statistics for cancer genome screening studies. The graphic shows our assessment of publications reporting whole-genome screening of cancer samples, using molecular detection methods (chromosomal CGH, genomic arrays technologies, whole-exome and whole-genome sequencing)." + "\n" + f" For the years 1993-2020 we found {n_pub} publications reporting {tot_genomes} individual samples." + "\n" + " The y-axis and the size of the dots refer to the sample number in a non-linear way; the color codes indicate the technology used." 
 
 plt.figtext(0.27, 0.71, txt1, wrap=True, horizontalalignment='left', fontsize=10) 
 
