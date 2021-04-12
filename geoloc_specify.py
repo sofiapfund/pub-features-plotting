@@ -65,12 +65,10 @@ def plot_geoloc(llcrnrlat, urcrnrlat, llcrnrlon, urcrnrlon, coordinates): #tumor
     
     lons = []
     lats = []
-    years = []
     for coord_pair in coordinates:
         lons.append(coord_pair[0][0])
         lats.append(coord_pair[0][1])
-        years.append(int(coord_pair[1]))
-    
+        
     x, y = map(lons, lats)
     
     #tumor_type = # list to be used as a marker (extracted from mongoDB)
