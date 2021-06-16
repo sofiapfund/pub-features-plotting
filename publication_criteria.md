@@ -1,26 +1,28 @@
-## Progenetix Publication Collection: which scientific publications are relevant?
-
-The Progenetix database provides an overview of mutation data in cancer, with a focus on copy number abnormalities (CNV / CNA), for all types of human malignancies. 
-
-For this reason... 
-
-Interest: copy-number changes in tumor samples. For this, data obtained with whole-genome technologies is required. 
+## Progenetix publication collection: which scientific publications are relevant?
 
 
-In short, data in the publication must fulfill __three__ main criteria in order to be relevant:
-1. it must be obtained from a human tumor sample (not germline sample)
-2. it must represent the tumor at a whole-genome level
-3. it must be accessible for download
+The Progenetix publication collection contains articles describing whole genome screening (WGS, WES, aCGH, cCGH) experiments in cancer. Genomic information about the analyzed cancer samples is extracted from these publications to generate cancer mutation data, with a focus on copy number abnormalities (CNV / CNA). 
 
 
-The table below summarizes which sequencing technologies generally offer relevant tumor sample data for the Progenetix web resource.
+Data from a scientific publication is included in the Progenetix publication collection if the following __three main criteria__ are fulfilled:
+1. Data was obtained from a __human tumor sample__
+2. Data represents the tumor at a __whole-genome level__
+3. Data is accessible for __download__
+
+
+The table below summarizes which genome sequencing technologies generally offer relevant tumor sample data for the Progenetix web resource, and which ones don't:
 
 
 Relevant technologies | Non-relevant technologies
 ------------ | -------------
-whole-genome sequencing of __cancer__ samples  |  targeted genome-sequencing
-whole-exome sequencing of __cancer__ samples  | expression arrays
-genomic arrays (cCGH or aCGH) on __cancer__ samples | tissue microarrays
+whole-genome sequencing  |  targeted genome-sequencing
+whole-exome sequencing  | gene expression arrays
+genomic arrays (cCGH, aCGH) | tissue microarrays
 
 
-Note: previously presented data (e.g., data reported in reviews), data from _in vitro_ experiments and data from non-human samples (e.g., data obtained from animal models) are __not__ relevant. 
+Note that, despite containing data about tumor samples at a whole-genome level, some publications might still not be relevant for the Progenetix publication collection. 
+Examples of such publications are:
+* publications that report previously presented data (e.g. reviews, technical publications, ...)
+* publications with data that from _in vitro_ experiments
+* publications with tumor data obtained from animal models
+
