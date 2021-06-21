@@ -15,10 +15,6 @@ import matplotlib.colors as colors
 import matplotlib.cm as cmx
 from pymongo import MongoClient
 
-#path = os.path.dirname(mpl_toolkits.basemap.__file__) # get path
-#print(path)
-os.environ['PROJ_LIB'] = '/Users/sofiapfund/.conda/envs/untitled/lib/python3.7/site-packages/mpl_toolkits/basemap'
-
 ##############################################################################
 ##############################################################################
 ##############################################################################
