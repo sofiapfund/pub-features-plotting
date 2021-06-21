@@ -2,4 +2,4 @@
 
 This repository gathers a series of scripts that can be used to plot various features of scientific publications found in the Progenetix publication collection on MongoDB. 
 
-![alt text](https://github.com/sofiapfund/pub-feature-plotting/images/image.jpg?raw=true)
+![alt text](https://github.com/sofiapfund/pub-feature-plotting/images/gelocation.pdf?raw=true)
