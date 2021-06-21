@@ -109,6 +109,7 @@ n_pub = cl.count_documents({"year": {"$regex": r"\d{4}"}}) # tot nr of publicati
 #+ "\n" + f" For the years 1993-2020 we found {n_pub} publications reporting {tot_genomes} individual samples." 
 
 plt.show()
+plt.savefig("publication_features.png", dpi=300)
 
 ''' 
 Notes:
