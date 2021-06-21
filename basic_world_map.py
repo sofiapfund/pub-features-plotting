@@ -21,7 +21,7 @@ import matplotlib.cm as cmx
 # Coordinates must be given as float or as integer from -180 to 180 (lon); resp. from -90 to 90 (lat).
 # Check out: https://matplotlib.org/basemap/api/basemap_api.html
 
-# In case of problems with Basempa, try:
+# In case of problems with Basemap, try:
 # import os
 # path = os.path.dirname(mpl_toolkits.basemap.__file__)
 # os.environ['PROJ_LIB'] = f'{path}'
